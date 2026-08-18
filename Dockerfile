@@ -59,6 +59,7 @@ COPY --from=builder /etc/group /etc/group
 # Mudar para usuário não-root (segurança)
 USER nodejs
 
+#
 # ============================================
 # CONFIGURAÇÃO DA APLICAÇÃO
 # ============================================
