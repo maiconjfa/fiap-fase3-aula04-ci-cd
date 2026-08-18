@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 let todos = [
   {
     id: 1,
-    title: 'Estudar Docker na FIAP -> Deploy ArgoCD New Version',
+    title: 'Estudar Docker na FIAP -> Deploy ArgoCD Nova Versão',
     description: 'Aprender containerização e Kubernetes',
     completed: false,
     priority: 'high',
